@@ -35,7 +35,7 @@ DIR_NAME = DIR_NAME + datetime.datetime.now().strftime("%d.%d.%y") + '/'
 if not os.path.isdir(DIR_NAME):
 	os.mkdir(DIR_NAME)
 
-DIR_NAME = DIR_NAME + datetime.datetime.now().strftime("%H.%S") + ' [' + str(round(time.time())) + ']/'
+DIR_NAME = DIR_NAME + datetime.datetime.now().strftime("%H.%M") + ' [' + str(round(time.time())) + ']/'
 os.mkdir(DIR_NAME)
 
 def random_string(length):
