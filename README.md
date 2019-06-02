@@ -12,5 +12,5 @@ optional arguments:
   --extension {jpg,png,gif,mov,mp4}
                         fetch images by specified extension (default: random)
   --name_length {5,6,7}
-                        file name length (default: random)
+                        file name length, 7-characters names are rare, so it’s better to use 6 or 7 (default: random)
 ```
