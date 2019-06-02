@@ -14,10 +14,6 @@ NAME_CHARACTERS_POOL = string.ascii_letters + string.digits
 DIR_NAME = 'results/'
 URL = 'https://i.imgur.com/'
 
-NAME_LENGTH = -1
-NUM_IMAGES = -1
-EXTENSION = ''
-
 parser = argparse.ArgumentParser(description='Fetch random images from Imgur image hosting.')
 parser.add_argument('num_images', nargs='?', type=int, default=30, help='number of images to be fetched (default: %(default)s)')
 parser.add_argument('--extension', choices=FILE_EXTENSIONS, default=-1, help='fetch images by specified extension (default: random)')
