@@ -11,7 +11,7 @@ optional arguments:
   -h, --help            show this help message and exit
 
   --name_length {5,6,7}
-                        file name length, 7-characters names are rare, so it’s better to use 6 or 7 (default: random)
+                        file name length, 7-characters names are rare, so it’s better to use 5 or 6 (default: random)
 
   --min_width MIN_WIDTH
                         minimum width of fetched image in pixels (default: 100)
